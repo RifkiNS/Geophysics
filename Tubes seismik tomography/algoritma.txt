@@ -1,0 +1,14 @@
+Algoritma Crosshole Tomography
+1. Mulai
+2. Masukkan nilai parameter kecepatan
+3. Menghitung nilai slowness (s)
+4. Menghitung nilai tcal awal dengan menggalikan panjang ray dari setiap receiver ke source dengan slowness
+5. Membuat matriks kernel (G) dari nilai panjang ray dari setiap receiver ke source
+6. Melakukan invers under-determine untuk mendapatkan nilai model awal (m)
+7. Masukkan nilai parameter untuk melakukan iterasi
+8. Masukkan nilai tobs
+9. Menghitung nilai tcal yang baru
+10. Menghitung nilai model awal untuk melakukan iterasi
+11. Menghitung nilai RMS error disetiap iterasi
+12. Lakukan iterasi sampai tcal=tobs
+13. Plot kurva RMS error vs Iterasi 
